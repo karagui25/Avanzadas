@@ -1,0 +1,73 @@
+Clases Scripts 
+
+su -
+pwd
+mkdir scrip 
+ls
+scrip
+mv scrip scripts
+ls
+scripts 
+cd scripts/
+vi ejemplo01.sh
+#!/bin/bash
+echo "hola"
+ls -l
+chmod a+x ejemplo01.sh
+./ejemplo.sh 
+
+vi ejemplo02.sh 
+#!/bin/bash
+x="esta es una variable"
+echo $x 
+./ejemplo02.sh
+chmod a+x ejemplo02.sh 
+./ejemplo02.sh
+
+vi ejemplo03.sh
+#!/bin/bash
+echo pwd 
+chmod a+x ejemplo03.sh
+./ejemplo03.sh
+#!/bin/bash
+echo $(pwd)
+
+date +%d
+date +%d%m%y
+cd cat /etc/sysconfig/network-scripts
+ls 
+cat name =darle tab=
+vi ifcfg-ens161
+#! Aqui se configuran las tarjetas de red 
+
+
+cd /etc/sysconfig/network-scripts/
+ls
+vi ifcfg-ens256
+
+device="ens256"
+bootproto="none"
+dns1=8.8.8.8
+gateway=10.10.10.5
+ipaddr=10.10.10.10
+#netmask=255.255.255.0
+nm_controlled="no"
+onboot="yes"
+type="ethernet"
+
+systemctl restart NetworkManager
+ip add 
+ip link set ens256 down 
+ip link set ens256 up
+ls
+ip add
+cd scripts/
+vi ejemplo04.sh
+#!/bin/bash
+nombre="red"$(date +%d%m%y)".conf"
+cp /etc/sysconfig/network-scripts/ifcfg-ens256 $nombre
+
+chmod a+x ejempl04.sh 
+./ejemplo04.sh 
+ls
+

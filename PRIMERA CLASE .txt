@@ -1,0 +1,46 @@
+PRIMERA CLASE 
+
+Comunicaciones Unificadas
+- Integracion de varios procesos de la empresa.
+- Comprende diferentes formas y herramientas de comunicación.
+- Solución global empresarial.
+
+En la pandemia se vio el uso de las herramientas para juntar todos los canales de comunciación 
+Comunicaciones Unificadas 
+iso de alma linux. 
+
+Modelos de implementación de Servicios:
+- Bare Metal
+- Vitual Machines
+- Container-based infrastructure
+- Serveless Computing 
+
+BARE METAL 
+- Infraestuctur areal, se instala directamente en la compu, se aloja como sistema primario
+- Necesitamos alto rendimiento en donde se puede alojar una virtualización para máquinas digitales. 
+- Se puede hacedr una insfraestructura de red en la nube.
+- AlmaLinux, libertad
+
+VIRTUAL MACHINES
+
+- Comparten recursoss con el sistema operativo inicial
+- Propia potencia informática y de almacenamiento
+- Las máquinas se ejecutan sobre un hipervisor
+- Docker 
+- Los contenedores ocupan el mismo kernel.
+
+
+SERVERLESS COMPUTING 
+- La informática sin servidor asume la responsabilidad de asignar recursos fuera del desarrollador y solo incurre en costos cuando se ejecuta la aplicación 
+
+
+
+Edge Cloud 
+- Nube perimetral permite que los recursos estén más cerca de donde necesitan.
+- El hadware se encuentra lo más cerca posible del usuario.
+- La nube perimetral se ejecuta en hardware mucho más pequeño, por lo que puede tener más recursos limitados
+
+
+
+sudo dnf up date -y 
+sudo dmf install epel-realse -y 

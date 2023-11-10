@@ -1,0 +1,22 @@
+en root
+useradd deber1
+passwd deber1
+deber1
+----------
+visudo
+tarea1 ALL=(root) NOPASSWD: /usr/sbin/userdel, /usr/bin/chmod, /usr/bin/chown, /usr/bin/systemctl, /usr/sbin/useradd
+nano /etc/ssh/sshd_config
+systemctl restart sshd
+
+
+eliminar usuario: userdel tarea3
+
+en deber1
+nano ~/.bashrc
+# User-defined aliases
+alias userdel='sudo /usr/sbin/userdel'
+alias chmod='sudo /usr/bin/chmod'
+alias chown='sudo /usr/bin/chown'
+alias systemctl='sudo /usr/bin/systemctl'
+alias useradd='sudo /usr/sbin/useradd'
+source ~/.bashrc
